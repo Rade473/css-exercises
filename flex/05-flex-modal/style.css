@@ -18,6 +18,9 @@ body {
 .modal {
   background: white;
   width: 480px;
+  display: flex;
+  padding: 15px;
+  gap: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -31,10 +34,20 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
 
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  font-size: larger;
+  font-weight: bold;
+}
+  
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -46,6 +59,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.text {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button {
